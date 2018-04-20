@@ -3,9 +3,8 @@ FROM python:3.6.5-slim-stretch
 WORKDIR /app
 
 COPY requirements.txt ./
-
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-COPY source source
+COPY . .
 
-CMD ["python", "-u", "source/pv.py"]

@@ -5,4 +5,7 @@ services:
 
     pv_sim:
         build: .
-        image: source
+        command: python3 pv/pv.py
+    grid:
+        build: .
+        command: python3 grid/grid.py
