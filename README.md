@@ -3,7 +3,7 @@
 Just run:
 
 ```bash
-    $ git clone
+    $ git clone git@github.com:mobilityhouse/task.git
     $ cd task
     $ docker-compose up
 ```
