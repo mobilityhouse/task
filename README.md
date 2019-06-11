@@ -1,6 +1,6 @@
 **NOTE:** Make sure you have [Docker] and [Docker Compose] installed.
 
-Just run:
+To start, run:
 
 ```bash
     $ git clone git@github.com:mobilityhouse/task.git
